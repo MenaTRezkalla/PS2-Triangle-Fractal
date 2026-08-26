@@ -16,6 +16,12 @@ N, the depth of the fractal,
 R, the rotation of the initial triangle in degrees, and lastly, 
 colorful. When colorful is set to 1, each triangle will be a different color for it's depth. If colorful is set to 0, the triangles will just have white outlines.
 
+## Requirements
+
+* Linux
+* `make`
+* C++ compiler and SFML
+
 ### How to Run
 
 1. Open a Linux terminal
