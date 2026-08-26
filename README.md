@@ -16,6 +16,22 @@ N, the depth of the fractal,
 R, the rotation of the initial triangle in degrees, and lastly, 
 colorful. When colorful is set to 1, each triangle will be a different color for it's depth. If colorful is set to 0, the triangles will just have white outlines.
 
+### How to Run
+
+1. Open a Linux terminal
+2. Navigate to the project folder
+3. Compile the program:
+
+   ```bash
+   make
+   ```
+4. Run it:
+
+   ```bash
+   ./Triangle {L} {N} {R} {0 or 1}
+   ```
+The parameters for running the program are listed above.
+
 ### Features
 I decided to create triangles and make their origin points at one of their points, so rotating the child triangles would be really easy.
 I used a vector to store all the triangles so that SFML could write them to the screen.
